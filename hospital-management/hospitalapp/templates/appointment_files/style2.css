@@ -1,0 +1,58 @@
+#header{background:#a33164;color:white;padding:0px;}
+#nav ul{ margin-top:5px;}
+#nav a{color:black;}
+#nav a:hover{ background:#a33164;color:#fff;}
+#about{padding-top:30px;padding-bottom:40px;}
+#subabout{background:#a33164;color:white;padding:40px;margin-bottom:30px;}
+.card{border:1px solid black;}
+.buttonrow{ background:#fff;color:#000;padding-top:10px;padding-bottom:10px;padding-left:20px;padding-right:20px;margin-top:30px;}
+#product{background:blue;color:white;padding:30px;}
+#about1{background:#a33164;color:white;padding:50px 100px 100px;margin-top:50px;margin-bottom:70px;}
+#some{background-image:url('dd.jpg');background-size:100% 350px;padding-top:150px;}
+.product{ border:1px solid #a33164; padding:20px; color:#a33164; border-radius:0px 20px 0px 0px;color:#a33164;}
+.footer{ border:1px solid white; padding:10px; font-size:20px;}
+#footer{ background:#000; color:#fff; padding:50px;margin-top:40px;}
+.btnabout{ background-color:#ccc; padding:10px; border-top:1px solid black;}
+#facilities{background-image:url('para11.jpg');color:#fff;margin-top:20px;}
+#facilities .img-thumbnail { border-radius:50%;}
+#facilities .col-md-12 {margin-bottom:20px;}
+.iconf{ font-size:22px;border:1px solid white; color:white;border-radius:100px; padding:30px;margin-left:-5px;}
+.iconf:hover {background:#fff; color:#e54242;}
+.row{ margin-bottom:20px;margin-right:5px;}
+#dep{ background:#a33164; padding:30px; color:white;}
+.department{ background:#fff; border-radius:10px; color:black; padding:10px; }
+.department h2{ font-size:28px;}
+#choose{background:#a33164; color:white;border:1px solid white;font-size:15px; padding-bottom:50px;}
+#choose h4 {margin-top:50px;}
+.col-md-3 p{text-align:justify;}
+/*comment*/
+
+.item img{ height:450px !important; width:100%;}
+
+.pageheading{ background:#a33164; padding:50px; text-align:center; color:white; font-family:Georgia; }
+.pageheading1{ background-image:url('ab1.jpg');padding:110px; text-align:center; color:white; font-family:Georgia; }
+
+#abtus .col-md-12 {color:#e54242;}
+#abtus p{font-size:18px}
+#service {padding-left:88px; background-color:#f8f8f8;}
+#service p{color:#777777; font-size:14px;}
+#service a{color:#e54242; font-style:italic;font-size:14px;}
+#service .col-md-6 {padding:20px 0px;}
+#service h3{margin-top:0px;}
+#service .iconf {color:#fff; background:#e54242; border-radius:8px;}
+#service1 {padding-left:88px; background-color:#f8f8f8;}
+#service1 p{color:#777777; font-size:14px;}
+#service1 a{color:#e54242; font-style:italic;font-size:14px;}
+#service1 .col-md-6 {padding:20px 0px;}
+#service1 h3{margin-top:0px;}
+#service1 .iconf {color:#fff; background:#e54242; border-radius:8px;}
+#btmus h1 {color:#e54242;}
+#btmus li {width:25px; height:6px; border-radius:0px;background-color:#f8f8f8; border:1px solid #e54242;}
+#btmus .carousel-indicators {margin-left:80px;top:-50px;}
+#btmus .active {background-color:#e54242;}
+#btmus .iconf {color:#e54242;padding: 5px;margin-right:10px;border:none;font-size:15px;}
+
+
+
+
+

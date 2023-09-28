@@ -1,0 +1,23 @@
+#header{background:#03befc;color:white;padding:0px;}
+#nav ul{ margin-top:5px;}
+#nav a{color:black;}
+#nav a:hover{ background:#03befc;color:#fff;}
+#about{background-image:url('aa.jpg');background-size:100% 700px;padding-top:300px;padding-bottom:40px;}
+#subabout{background:#03befc;color:white;padding:40px;margin-bottom:30px;}
+.card{border:1px solid black;}
+.buttonrow{ background-color:#ccc; padding:10px; border-top:1px solid black;}
+#product{background:blue;color:white;padding:30px;}
+#about1{background:#03befc;color:white;padding:100px;margin-top:50px;margin-bottom:70px;}
+#some{background-image:url('Ho.jpg');background-size:100% 350px;padding-top:150px;}
+.product{ border:1px solid #03befc; padding:20px; color:#03befc; border-radius:0px 20px 0px 0px;color:#03befc;}
+.footer{ border:1px solid white; padding:10px; font-size:20px;}
+#footer{ background:#000; color:#fff; padding:50px;margin-top:40px;}
+.buttonrow{ background:#fff;color:#000;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;}
+#facilities{background-image:url('para11.jpg');color:#fff;margin-top:20px;}
+#facilities .img-thumbnail { border-radius:50%;}
+#facilities .col-md-12 {margin-bottom:20px;}
+.iconf{ font-size:22px; border:1px solid white; border-radius:100px; padding:30px;margin-left:-5px;}
+.iconf:hover {background:#fff; color:#e54242;}
+.row{ margin-bottom:20px;margin-right:5px;}
+
+

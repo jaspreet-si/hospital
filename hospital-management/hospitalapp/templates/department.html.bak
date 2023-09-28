@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+<div class="row pageheading">
+<h1>Department</h1>
+</div>
+
+
+ {% for doc in object_list %}
+ <div class="row" id="font">
+
+<div class="col-md-6">
+<img src="/media/{{ doc.photo }}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>{{ doc.name }}</h2>
+<p>{{ doc.description }}</p>
+</div>
+
+</div>
+
+  {% endfor %}
+
+
+<!--<div class="row">
+
+<div class="col-md-6">
+<h2>CARDIOLOGY</h2>
+<p>
+Rana Hospital’s Cardiovascular department is here to keep you going by providing you with preventive, comprehensive, non-invasive, and intensive cardiac care.
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'CARDIOLOGY.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<img src="{% static 'GYNAECOLOGY.png' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>GYNAECOLOGY</h2>
+<p>
+First trimester. Initial flutters. Initial feedings. Week by week, kick by kick, and we are constantly by your side, guiding you through pre-conception and prenatal care, encouraging your labor and delivery options, and inviting your baby into the world with specialist care.
+</p>
+</div>
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<h2>DENTISTRY</h2>
+<p>
+We offer treatment with Implantology, invisible braces, laser dentistry (painless soft tissue treatment), pediatric dentistry, and a painless root canal to patients. All the major to minor surgeries are also done by our expert doctors.
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'DENTISTRY.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<img src="{% static 'DERMATOLOGY.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>DERMATOLOGY</h2>
+<p>
+At Rana Hospital we have a specialized department for the dermatologist and staff that are specially trained to take care of your skin no matter the age or concern. Doctors at our hospital have years of experience and knowledge in the field of dermatology hence offers you the best international treatment in your city.
+</p>
+</div>
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<h2>PATHOLOGY</h2>
+<p>
+If you or someone you care about suffers from a disorder that affects the endocrine system, you’ll be glad to know that Healing Hospital has a team of expert endocrinologists who care for adults and children with these conditions.
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'PATHOLOGY.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<img src="{% static 'ayur2.png' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>AYURVEDA</h2>
+<p>
+Ayurveda: India's traditional, natural system of medicine that has been practiced for more than 5,000 years. Ayurveda provides an integrated approach to preventing and treating illness through lifestyle interventions and natural therapies. 
+</p>
+</div>
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<h2>NEPHROLOGY</h2>
+<p>
+Nephrology also studies systemic conditions that affect the kidneys, such as diabetes and autoimmune disease; and systemic diseases that occur as a result of kidney disease, such as renal osteodystrophy and hypertension. A physician who has undertaken additional training and become certified in nephrology is called a nephrologist.
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'nep1.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<img src="{% static 'onco.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>ONCOLOGY</h2>
+<p>
+Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist.
+Oncology is the study of cancer. An oncologist is a doctor who treats cancer and provides medical care for a person diagnosed with cancer.
+</p>
+</div>
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<h2>PLASTIC SURGERY</h2>
+<p>
+Plastic surgery is a surgical specialty involving the restoration, reconstruction, or alteration of the human body. It can be divided into two main categories: reconstructive surgery and cosmetic surgery. Reconstructive surgery includes craniofacial surgery, hand surgery, microsurgery, and the treatment of burns.
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'pl1.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<img src="{% static 'ort.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+<div class="col-md-6">
+<h2>ORTHOPEDICS</h2>
+<p>
+Orthopedics is a medical specialty that focuses on the diagnosis, correction, prevention, and treatment of patients with skeletal deformities - disorders of the bones, joints, muscles, ligaments, tendons, nerves and skin. These elements make up the musculoskeletal system.
+</p>
+</div>
+</div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<h2>MEDICINE EXPERT</h2>
+<p>
+At Leading Medicine Guide, you will find exactly the specialist you are looking for: Which physician is the right expert for your medical condition? In which clinic can you really have confidence?
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'med.jpg' %}" width="100%" class="img-thumbnail" style="height:230px;" />
+</div>
+</div>--->
+
+
+{% endblock %}

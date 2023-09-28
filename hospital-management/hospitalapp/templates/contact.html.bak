@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+<div class="row pageheading2" style="text-align:left;">
+
+<h1>CONTACT US</h1>
+</div>
+<div class="row" style="padding:0px 100px; margin:0 auto;" id="location">
+<div class="col-md-12" style="border-bottom:1px solid #ededed; padding-bottom:40px;margin-top:40px;">
+<div class="col-md-4">
+<h3>Location</h3>
+<a>Rana Hospital<br>Near Bus Stand, Kalanwali Pin-125201 </a>
+</div>
+<div class="col-md-4">
+<h3>Phone Number</h3>
+<a>+91 8858 6656 12</a>
+
+</div>
+<div class="col-md-4">
+<h3>E-Mail Us</h3>
+<a>info@ranahospital.com</a>
+
+</div>
+</div>
+</div>
+
+<div class="row" style="padding-top:80px;" id="touch">
+<div class="col-md-6 col-md-offset-3">
+<h2><b>GET IN <span>TOUCH</span></b></h2>
+<p style="margin-bottom:60px;text-align:center;color:#848484;">Please enter your query below we will try to resolve it as soon as possible</p>
+<form action="/insert1" method="post">
+{% csrf_token %}
+
+<input placeholder="Name" type="text" name="name" class="form-control">
+<br>
+<br>
+
+
+<input placeholder="Email" type="text" name="email" class="form-control">
+<br>
+<br>
+
+<input placeholder="Phone" type="text" name="phone" class="form-control">
+<br>
+<br>
+<input placeholder="Subject" type="text" name="subject" class="form-control">
+<br>
+<br>
+
+<input placeholder="Message" type="text" name="message" class="form-control">
+<br>
+<br>
+<button class="btn btn-primary buttonrow"id="btn">Send Message</button>
+
+</form>
+</div>
+</div>
+
+{% endblock %}

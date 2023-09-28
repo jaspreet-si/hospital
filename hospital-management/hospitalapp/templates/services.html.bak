@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+<div class="row pageheading3"  >
+
+<h1>SERVICES</h1><br>
+<p>We focus on continuous quality improvement to provide patients a safe <br>environment to recieve highest quality care</p>
+</div>
+<div class="row text-center" id="services2">
+<h1 style="color:black;text-align:left;padding-bottom:100px;">OUR <span style="color:#82c1bb;">SERVICES</span></h1>
+
+<div class="col-md-4" style="padding:20px">
+<img src="{% static 'surgery.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service">
+<br><h3 style="font-size:25px;">Surgery</h3>
+<p style="font-size:20px;">INR 500 </p>
+
+<p class="colr"  >Consultation </p>
+  </div>
+  </div>
+    
+ <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'paediatrics.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service">
+<br><h3 style="font-size:25px;">Paediatrics</h3>
+<p style="font-size:20px;">INR 500</p>
+<p class="colr">Consultation </p>
+  </div>
+  </div>
+	
+   <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'ent.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service"style="background-color:#f8f8f8;">
+<br><h3 style="font-size:25px;">ENT</h3>
+<p style="font-size:20px;">INR 500</p>
+<p class="colr">Consultation </p>
+  </div>
+  </div>
+
+ <div class="row text-center">
+ <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'obs.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service">
+<br><h3 style="font-size:25px;">Obs & Gyn</h3>
+<p style="font-size:20px;">INR 500</p>
+
+<p class="colr"  >Consultation </p>
+  </div>
+  </div>
+  <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'medicine.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service">
+<br><h3 style="font-size:25px;">Medicine</h3>
+<p style="font-size:20px;">&nbsp;</p>
+
+<p class="colr"  >Consultation </p>
+  </div>  
+  </div> 
+  <div class="col-md-4" style="padding:20px">
+
+<img src="{% static 'ortho.jpg' %}" width="100%" style="height:300px;" />
+ <div class="col-md-12 service">
+<br><h3 style="font-size:25px;">Orthopaedics</h3>
+<p style="font-size:20px;">INR 500</p>
+<p class="colr"   >Consultation </p>
+  </div>
+  </div>
+</div>
+  </div>
+  
+ 
+
+{% endblock %}

@@ -1,0 +1,318 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div class="row">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="{% static 'kkk1copy.jpg' %}" alt="Los Angeles" style="width:100%;">
+		<div class="carousel-caption">
+        <h1 style="color:black;">Patient Care is our first priority</h1> 
+        
+      </div>
+      </div>
+
+      <div class="item">
+        <img src="{% static 'zzz1copy.jpg' %}" alt="Chicago" style="width:100%;">
+		<div class="carousel-caption">
+        <h1 style="color:black;">24 x 7 Emergency Service </h1>
+      </div>
+      </div>
+    
+      <div class="item">
+        <img src="{% static 'aaa1copy.jpg' %}" alt="New york" style="width:100%;">
+		<div class="carousel-caption">
+        <h1 style="color:black;">Best of care, close to home</h1>
+      </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+<div class="row text-center" id="subabout">
+<div class="col-md-8">
+<h1>Welcome to RANA Hospital</h1>
+</div>
+<div class="col-md-4">
+<a href="/appointment/"><button class="btn btn-primary buttonrow">Book Appointment</button></a>
+</div>
+</div>
+
+<div class="row text-center"> 
+<div class="col-md-12">
+<h1>Specialists</h1>
+</div>
+<div class="col-md-3">
+<h2><i class="glyphicon glyphicon-user product"></i>
+<br><br>General check up</h2></br>
+<p>
+The doctor may also look at your eyes,ears and throat, test your cholesterol level and blood sugar, and if you are at risk they may record your heart waves with an electrocardiogram.
+</P>
+
+</div>
+<div class="col-md-3">
+<h2><i class="glyphicon glyphicon-star product"></i>
+<br><br>Dentistry</h2></br>
+<p>Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders.
+</p>		
+
+</div>
+<div class="col-md-3">
+<h2><i class="glyphicon glyphicon-glass product"></i>
+<br><br>Dermatology</h2></br>
+<p>The Divison of Dermatology at Medanta is known fof its commitment towards providing a full range of dermatologic care for both common and rare problems of skin,hair,nails etc.
+</p>		
+
+</div>
+<div class="col-md-3">
+<h2><i class= "glyphicon glyphicon-plus-sign product"></i>
+<br><br>Dietetics & Nutrition</h2></br>
+
+<p>
+The goal of Nutrition and Dietetics Department at ASIAN INSTITUTE OF MEDICAL SCIENCES in Delhi is to provide excellent care to its patients.
+</p>
+</div>
+</div>
+<div class="row" id="about1">
+<h1 class="text-center">About us</h1>
+<p class="text-center">The mission of Healing is to serve the needs of our patients by providing superior, comprehensive & affordable health care services in a unique patient first environment</p>
+<div class="col-md-6">
+<p>We are one of India’s leading providers of comprehensive, seamless and integrated world class healthcare services. With a network of 14 hospitals, we offer treatment across all 29 specialties. We have 2300+ leading doctors with international level expertise who are committed to provide highest standards of medical excellence at a fraction of international costs. Our NABH and ISO accredited hospitals offer best in class services to our patients. We understand seeking medical treatment outside your home can be physically and mentally difficult. So at Max, we are eager to get you home!
+ </p>
+<ul>
+<li>To be a leader for excellence and innovation in the delivery of healthcare and patient safety, continually improving the quality of services and the patient care experience.
+</li>
+<li>To be a model of service in our focused clinical service.
+</li>
+<li>To provide exemplary clinical settings that supports the education of future healthcare practitioners.</li>
+<li>To be an “employer of choice”, providing highly rewarding environment for our employees.</li>
+</ul>
+</p>
+</div>
+<div class="col-md-6">
+<img src="{% static 'dd1copy.jpg' %}" width="100%" class="img-thumbnail" style="height:290px;" />
+</div>
+</div>
+
+<div class="row text-center" id="facilities">
+<div class="parallax">
+<div class="col-md-12">
+<h1>FACILITIES</h1>
+<p>The Hospital has an extraordinary commitment to delivering the highest levels of clinical quality and providing the best 
+<br>	
+	possible standards of personalised care to its patients.</p>	
+</div>
+
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-8" style="margin-left:30px;">
+<h4>24 HOUR EMERGENCY</h4>
+<p>CCM provides 24 hour Emergency Service</p>
+</div>
+<div class="col-md-4" style="margin-left:-30px;"> 
+<span class="glyphicon glyphicon-eye-open iconf"></span>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-8">
+<h4>CARE & CURE SERVICES</h4>
+<p>24 Hour Critical Care Ambulance Service.Contact 89765-54663,<br>98465-34422</p>
+</div>
+<div class="col-md-4" style="margin-left:-50px;">
+<span class="glyphicon glyphicon-bed iconf"></span>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8" style="margin-left:30px;">
+<h4>CRITICAL CARE</h4>
+<p>Critical Care Department offers 24*7 care</p>
+</div>
+<div class="col-md-4" style="margin-left:-30px;">
+<span class="glyphicon glyphicon-bullhorn iconf"></span>
+</div>
+</div>
+
+</div>
+
+<div class="col-md-4">
+<img src="{% static 'xx.jpg' %}" width="100%" class="img-thumbnail" style="height:291px; width:319px;" />
+</div>
+
+<div class="col-md-4"> <!-- START CL RIGHT-->
+<div class="row">
+<div class="col-md-4" style="margin-right:-30px;">
+<span class="glyphicon glyphicon-user iconf"></span>
+</div>
+<div class="col-md-8" style="margin-right:30px;">
+<h4>INTERNAL MEDICINES</h4>
+<p>We provides comprehensive primary care services</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4" style="margin-left:50px;">
+<span class="glyphicon glyphicon-heart iconf"></span>
+</div>
+<div class="col-md-8" style="margin-left:-50px;">
+<h4>INTERNATIONAL PATIENTS</h4>
+<p>International team facilitates<br> at each  step of medical trip</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4" style="margin-right:-30px;">
+<span class="glyphicon glyphicon-tint iconf"></span>
+</div>
+<div class="col-md-8" style="margin-right:30px;">
+<h4>FREE MEDICAL ADVICE</h4>
+<p>We provide free consultation</p>
+</div>
+</div>
+
+</div>
+</div>
+</div> <!--close id-->
+
+ <!--close id-->
+<div class="row text-center" id="dep"><!--start-->
+<h1>Department</h1>
+<br>
+<div class="col-md-3">
+<div class="col-md-12 department">
+<img src="{% static 'cardiovascular.png' %}" >
+<h2>CARDIOLOGY</h2>
+</div>
+</div>
+<div class="col-md-3">
+<div class="col-md-12 department">
+<img src="{% static 'orthopedic.png' %}" >
+
+<h2>ORTHOPAEDICS</h2>
+</div>
+</div>
+<div class="col-md-3">
+<div class="col-md-12 department">
+<img src="{% static 'dental.png' %}" >
+
+<h2>DENTAL SURGERY</h2>
+</div>
+</div>
+<div class="col-md-3">
+<div class="col-md-12 department">
+<img src="{% static 'face.png' %}" >
+<h2>PLASTIC SURGERY</h2>
+</div>
+</div>
+	
+
+</div><!--close-->
+<div class="row text-center" id="choose"><!--choose us start-->
+<div class="col-md-12" style="padding:20px 0 20px 0;" >
+<h1>WHY CHOOSE US</h1>
+</div>
+<div class="col-md-3">
+
+<span class="glyphicon glyphicon-heart iconf"></span>
+<h4>Cost-efficient Quality Care</h4>
+<p>Rana Hospital is dedicated to providing powerful, higher quality, cost-effective healthcare in the area. We provide value-for-money remedies and solutions with secure and safe care. From the minute an individual walks through our doors, we plan to help them in making the most suitable and valuable decisions concerning their health that helps in living them a good life further.
+</p>
+</div>
+<div class="col-md-3">
+<span class="glyphicon glyphicon-sound-dolby iconf"></span>
+<h4>Ever-Evolving Treatment</h4>
+<p>Through ongoing training of our Staff, researches on new improvements in the fields of health and medical therapy, and the execution of research-backed possibilities for maintenance, we are dedicated to offering effective solutions to people in Chandigarh. Your visit to us will make you understand our exceptional services and unmatched dedication towards your health.</p>
+</div>
+<div class="col-md-3">
+<span class="glyphicon glyphicon-header iconf"></span>
+<h4>State-of-the-art Infrastructure</h4>
+<p>Bringing advanced equipment from all around the world, Healing Hospital opens new frontiers of gateway and hope into a wholesome life. This makes easy for the doctors and staff to understand the level of care the patient needs to obtain his or her personal treatment goals. This provides quicker recovery time for patients and makes happier services for the people we care about.</p>
+</div>
+<div class="col-md-3">
+<span class="glyphicon glyphicon-user iconf"></span>
+<h4>Expert Consultants</h4>
+<p>Rana Hospital is home to a few of the greatest doctors in India, who are leaders in their respective areas. Through consultations Sessions, our Doctor examines the patient’s history and gives the best advice. Our reputation for exceptional medical care and friendly atmosphere, together with constant investment in facilities and technology, makes us Best Multispeciality Hospital in Chandigarh.
+</p>
+</div>
+
+</div><!--close choose-->
+
+<div class="row">
+<div class="col-md-8">
+<h2>News & Updates</h2>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Coronavirus: Inside India's busiest Covid-19 hospital  <i class="glyphicon glyphicon-chevron-down pull-right"></i></a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse ">
+      <div class="panel-body">"There was almost a 50% jump in patients with upper respiratory issues and sore throat. They were not responding to antibiotics. Testing was still low and we didn't really know what was going on," Dr Dosi, who works at Sri Aurobindo Institute of Medical Sciences, a 1,156-bed private medical college in the central city of Indore, told me.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Revenue Growth Of Hospitals Seen Up 14 To 15 Pc: Crisil <i class="glyphicon glyphicon-chevron-down pull-right"></i></a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Ayushman Bharat and deeper penetration of hospitals into tier two cities as well as alterations made to healthcare delivery models by hospital chains to align with regulatory changes.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        How top Indian hospitals are using technology to fight out COVID-19  <i class="glyphicon glyphicon-chevron-down pull-right"></i></a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">COVID-19 pandemic has shoved a big spanner in the operations of businesses across industries. However, the technology readiness, which is realised during normal times has come to the fore with much more force in a super emergency situation like COVID-19 pandemic. The Indian healthcare sector is at the frontline, fighting the pandemic.
+	</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-4">
+<h3>Our Timings</h3>
+<h4>Appointments:</h4>
+<p><b>Monday-Friday:</b><br>8am-9pm</br></p>
+<p><b>Saturday & Sunday:</b><br>8am-7pm</br></p>
+<h2>Emergency:</h2>
+<p><b>Monday-Friday:</b><br>8am-9pm</br></p>
+</div>
+</div>
+
+<div id="maphome" style="margin-bottom:40px;">
+<div class="mapouter"><div class="gmap_canvas"><iframe width="1200px" height="247px" id="gmap_canvas" src="https://maps.google.com/maps?q=haryana/sirsa/kalanwali/&center=29.85,74.95&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="1150" height="243" ></iframe><a href="https://google-map-generator.com"></a><a>goodmaps</a></div><style>.mapouter{position:relative;text-align:right;height:200px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:600px;}</style></div>
+</div>
+
+</div>
+
+{% endblock %}

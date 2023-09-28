@@ -1,0 +1,86 @@
+{% load static %}
+<html>
+<head>
+<link href="{%  static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet" />
+<link href="{%  static 'bootstrap-3.3.7-dist/css/bootstrap-theme.min.css' %}" type="text/css" rel="stylesheet" />
+<link href="{%  static 'style2.css' %}" type="text/css" rel="stylesheet"/>
+<link href="{%  static 'bootstrap-3.3.7-dist/bootstrapdatepicker.css' %}" type="text/css" rel="stylesheet" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="{% static 'bootstrap-3.3.7-dist/bootstrapdatepicker.js' %}"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+<div class="row" id="header">
+<div class="col-md-8">
+<p>Rana Healthcare Hospital</p>
+</div>
+
+<div class="col-md-4">
+<p>Emergency No(+001)123-456-789</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<h2><img src="{% static 'mlogo.png' %}" style="vertical-align: unset;margin-right: 9px;"/>Rana Hospital</h2>
+</div>
+
+<div class="col-md-9" id="nav">
+<nav class="navbar-inverse">
+<ul class="nav navbar-nav">
+<li><a href="/">HOME</a></li>
+<li><a href="/aboutus/">ABOUT US</a></li>
+<li><a href="/doctors/">DOCTORS</a></li>
+<li><a href="/services/">SERVICES</a></li>
+<li><a href="/department/">DEPARTMENTS</a></li>
+<li><a href="/facilities/">FACILITIES</a></li>
+<li><a href="/appointment/">APPOINTMENT</a></li>
+<li><a href="/contact/">CONTACT US</a></li>
+
+
+</div>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+<div class="row" id="footer">
+<div class="col-md-12">
+<div class="col-md-3">
+<h3>Our Contact</h3>
+<p>Rana Hospital<br>Near Bus Stand, Kalanwali Pin-125201 </br><br>+91 8858 6656 12</br></br>info@ranahospital.com</p>
+</div>
+<div class="col-md-3" style=" border-left:none">
+<h3>Quick Links</h3>
+<p><a href="/aboutus/">AboutUs</a><br><br><a href="/services/">Services</a></br><br><a href="/doctors/">Doctors</a></br><br><a href="/department/">Department</a></br><br><a href="/contact/">Contact</a></br></p>
+</div>
+<div class="col-md-3" style=" border-left:none">
+<h3>Latest posts</h3>
+<p>Lovina main street is crowded and hospital are more expensive.Rana Hospital holds everything you need, staff is great and breakfast is balinese one. Rooms are decent.</p>
+</div>
+<div class="col-md-3" style=" border-left:none"> 
+<h3>Recent News</h3>
+<p>China offers to build makeshift Covid-19 hospitals in India.<br>
+AIIMS to convert to its trauma centre into COVID-19 hospital </p>
+
+</div>
+</div>
+<div class="col-md-12" style="margin-top:20px">
+<div class="col-md-9">
+<p>&copy; Rana Hospital 2023 All Rights Reserved.</p>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+

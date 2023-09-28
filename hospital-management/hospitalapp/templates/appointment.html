@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<script> $(document).ready(function () {
+                $("#datepicker").datepicker({ 
+        autoclose: true, 
+        todayHighlight: true
+  }).datepicker('update', new Date());
+            });
+			
+			</script>
+
+<div class="row pageheading">
+<h1>Appointment</h1>
+
+</div>
+
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<form action="/insert" method="post">
+{% csrf_token %}
+<label>Name</label>
+<input type="text" name="name" class="form-control">
+<br>
+<br>
+
+<label>ContactNo</label>
+<input type="text" name="contactno" class="form-control">
+<br>
+<br>
+
+<label>Age</label>
+<input type="text" name="age" class="form-control">
+<br>
+<br>
+<label>Gender</label>
+<br>
+ Male <input type="radio" value="male" name="gender">
+ Female <input type="radio" value="female" name="gender">
+<br>
+<br>
+<label>Date</label>
+
+<input type="text" name="date" data-date-format="dd-mm-yyyy" class="form-control" id="datepicker"> 
+  
+
+<br>
+<br>
+
+<label>Time</label>
+<select class="form-control" name="time">
+<option value="">--select--</option>
+<option>Morning</option>
+<option>Affternoon</option>
+<option>Evening</option>
+</select>
+<br>
+<br>
+<label>Department</label>
+<select class="form-control" name="department">
+<option value="">--select--</option>
+<option>General Surgery</option>
+<option>Orthopedic</option>
+<option>Pathology</option>
+<option>Anesthesia and critical care</option>
+<option>Cardiology</option>
+<option>Gynaecology</option>
+<option>Dentistry</option>
+<option>Dermatology</option>
+<option>Endocrinology</option>
+</select>
+<br>
+<br>
+
+<label>Description</label>
+<textarea name="description" class="form-control"></textarea>
+<br>
+<br>
+<button class="btn btn-primary buttonrow" type="submit">Book Appointment</button>
+
+</form>
+</div>
+</div>
+
+
+{% endblock %}
+
+<div class="row" id="footer">
+<div class="col-md-12">
+<div class="col-md-3">
+<h3>Our Contact</h3>
+<p>Medico company Inc<br>Jc Main Road,Near Silnile tower Pin-21542 NewYork US.<br><br>(123)456-789-1255-12584<br><br>email@domainname.com</p>
+</div>
+<div class="col-md-3">
+<h3>Quick Links</h3>
+<p>Latest Events<br>Terms and conditions<br><br>Privacy policy<br><br>Career<br><br>Contact us<br></p>
+</div>
+<div class="col-md-3">
+<h3>Latest posts</h3>
+<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>Pellentesque et pulviner enim.Quisque at tempor ligula<br></p>
+</div>
+<div class="col-md-3">
+<h3>Recent News</h3>
+<p>Lorem ipsum dolor sit amet consetetur adipiscing elit<br>natus error sit voluptatem accusantium doloremque<br></p>
+</div>
+</div>
+<div class="col-md-12">
+<div class="col-md-9">
+<p>© Medico 2016 all right reserved.By WebThemez.</p>
+</div>
+<div class="col-md-3">
+<i class="glyphicon glyphicon-circle-arrow-up footer"></i>
+<i class="glyphicon glyphicon-heart footer"></i>
+<i class="glyphicon glyphicon-cog footer"></i>
+<i class="glyphicon glyphicon-screenshot footer"></i>
+<i class="glyphicon glyphicon-leaf footer"></i>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

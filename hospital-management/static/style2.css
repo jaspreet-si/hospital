@@ -1,0 +1,105 @@
+#header{background:#a33164;color:white;padding:0px;}
+#header p{margin:14px 0px; padding:0px;}
+#header .col-md-4{text-align:right;}
+#nav ul{ margin-top:15px;}
+#nav a{color:black;}
+#nav a:hover{ background:#a33164;color:#fff;}
+#about{padding-top:30px;padding-bottom:40px;}
+#subabout {background:#a33164;color:white;padding:40px;margin-bottom:30px;}
+#subabout h1{text-align:left;}
+.card{border:1px solid black;}
+.buttonrow{ background:#fff;color:#000;padding-top:10px;padding-bottom:10px;padding-left:20px;padding-right:20px;margin-top:20px;}
+#product{background:blue;color:white;padding:30px;}
+#about1{background:#a33164;color:white;padding:0px 100px 20px;margin-top:50px;margin-bottom:70px;}
+#about1 .img-thumbnail { border-radius:80px 0px 80px 0px;}
+#some{background-image:url('dd.jpg');background-size:100% 350px;padding-top:150px;}
+.product{ border:1px solid #a33164; padding:20px; color:#a33164; border-radius:0px 20px 0px 0px;color:#a33164;}
+.footer{ border:1px solid white; padding:10px; font-size:20px;}
+#footer{ background:#000; color:#fff; padding:50px 50px 0px;margin-top:40px;}
+#footer .col-md-3{ height:240px; border:2px solid; border-radius:10px;}
+#footer .col-md-3 a{ color:#fff; }
+#footer .glyphicon{margin-left:5px;}
+.btnabout{ background-color:#ccc; padding:10px; border-top:1px solid black;}
+#facilities{color:#fff;margin-top:20px;}
+#facilities .img-thumbnail { border-radius:50%;}
+#facilities .col-md-12 {margin-bottom:20px;}
+.parallax {background-image: url('para11.jpg');height: 85%;background-attachment: fixed;background-position: center;background-repeat:
+no-repeat;background-size:cover;padding-top:10px;}
+.iconf{ font-size:22px;border:1px solid white; color:white;border-radius:100px; padding:30px;margin-left:-5px;}
+.iconf:hover {background:#fff; color:#e54242;}
+.row{ margin-bottom:20px;margin-right:5px; margin-left:0px;}
+#dep{ background:#a33164; padding:0px 30px 50px; color:white;margin-top:80px;}
+.department{ background:#fff; border-radius:10px; color:black; padding:10px; }
+.department h2{ font-size:28px;}
+#choose{background:#a33164; color:white;border:1px solid white;font-size:15px; padding-bottom:50px;margin-top:80px;}
+#choose h4 {margin-top:50px;}
+.col-md-3 p{text-align:justify;}
+
+/*comment*/
+
+#font .img-thumbnail {border-radius: 50px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding: 4px;}
+
+.item img{ height:450px !important; width:100%;}
+
+.pageheading{background-image:url('background.jpg');padding:50px; text-align:center; color:white; font-family:Georgia; }
+.pageheading1{ background-image:url('ab1.jpg');padding:110px; text-align:center; color:white; font-family:Georgia; }
+
+#abtus .col-md-12 {color:#e54242;}
+#abtus p{font-size:18px}
+#service {padding-left:88px; background-color:#f8f8f8;}
+#service p{color:#777777; font-size:14px;}
+#service a{color:#e54242; font-style:italic;font-size:14px;}
+#service .col-md-6 {padding:20px 0px;}
+#service h3{margin-top:0px;}
+#service .iconf {color:#fff; background:#e54242; border-radius:8px;}
+#service1 {padding-left:88px; background-color:#f8f8f8;}
+#service1 p{color:#777777; font-size:14px;}
+#service1 a{color:#e54242; font-style:italic;font-size:14px;}
+#service1 .col-md-6 {padding:20px 0px;}
+#service1 h3{margin-top:0px;}
+#service1 .iconf {color:#fff; background:#e54242; border-radius:8px;}
+#btmus h1 {color:#e54242;}
+#btmus li {width:25px; height:6px; border-radius:0px;background-color:#f8f8f8; border:1px solid #e54242;}
+#btmus .carousel-indicators {margin-left:80px;top:-50px;}
+#btmus .active {background-color:#e54242;}
+#btmus .iconf {color:#e54242;padding: 5px;margin-right:10px;border:none;font-size:15px;}
+#touch h2{font-size:30px;margin-bottom:45px;text-transform:uppercase;text-align:center;font-family:sans-serif;word-spacing:-1;}
+#touch span {color:#82c1bb}
+#touch btn {background-color:#82c1bb}
+#location .col-md-4 {padding-left:94px;}
+.pageheading2{ background-image:url('mmn.jpg');padding:110px; text-align:center; color:white; font-family:Georgia; }
+
+.form-control{border-color:#82c1bb}
+#btn{background:#82c1bb;margin-left:250px;}
+.pageheading3{ background-image:url('lll.jpg');padding:110px; text-align:center; color:white; font-family:Georgia; }
+#services2 {padding:20px 50px; margin:0px auto; background-image:url('bgservices.jfif');background-repeat: no-repeat;background-size: cover;}
+#services2 .col-md-4:hover{ transition: .5s;}
+#services2 .col-md-12{padding-bottom:50px; background:transparent;background-color:#f8f8f8;}
+#services2 .col-md-4{margin-bottom:20px;box-shadow: 0 8px 31px 0 rgba(0, 0, 0, 0.1);}
+p.colr{color:#38ba88;}
+#facilities1  .col-md-12{padding-bottom:20px;background-color:#f8f8f8;}
+
+.pageheading4{padding-left:15px;margin:0px auto;}
+.facilities {background-color:#f8f8f8;margin-bottom:30px;padding-bottom:20px;
+box-shadow: 5px 10px 10px #888888;}
+.facilities p{text-align:center;}
+/*.pageheading4 .col-md-3:hover{box-shadow: 5px 10px 10px #888888;}*/
+.slider{border:2px solid red;}
+.pageheading5{ background-image:url('mmn.jpg');padding:110px; text-align:center; color:white; font-family:Georgia; }
+
+.pageheading5{padding-left:15px;margin:0px auto;}
+#doctors{margin-top:50px;}
+#doctors p {font-size:17px;}
+.drclm {background-color: #f1f3f3;border-radius: 5px;position: relative;z-index: 1;box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0);transition: 0.4s;margin: 0 10px 20px;cursor: pointer;}
+.drclm:hover::before {opacity: 1;}
+.drclm::before {position: absolute;content: "";left: 0;top: 0;width: 100%;height: 100%;background: #2f6dbf;z-index: -1;opacity: 0;transition: 0.4s;}
+.drclm:hover {color: #fff;box-shadow: 0 35px 30px -30px rgba(0, 0, 0, 0.9);margin-bottom: 20px;}
+.drclm:hover .drimg::before {opacity: 1;}
+.drimg::before {content: "";position: absolute;left: 0;top: 0;	width: 100%;height: 100%;background-color: #f1f3f3;z-index: -1;	opacity: 0;transition: 0.4s;}
+.drimg {text-align: center;background:#2f6dbf;border-radius: 0 0 0 50%;z-index: 1;	position: relative;	padding: 75% 0 0 0;	overflow: hidden;}
+.drimg img { height:100%; text-align: center;position: absolute;left: 0;right: 0;top: 0;	bottom: 0;margin: 0 auto;}
+.drdetails {text-align: center;height: 170px;padding: 35px 0px;}
+#maphome .gmap_canvas {overflow: hidden;background: none !important;height: 245px;width: 1335px;}
+
+
+

@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div class="row pageheading4">
+<div class="col-md-12"style="background-color:#a33164; margin-bottom:80px;">
+<h1 style="padding-left:60px;">FACILTIES</h1> 
+</div>
+<div class="col-md-12" style="padding-left:0px;">
+<div class="col-md-8">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+  <ol class="carousel-indicators" >
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1" ></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{% static 'pedd.jpg' %}" alt="Los Angeles"/>
+    </div>
+
+    <div class="item">
+      <img src="{% static 'aa1.jpg' %}" alt="Chicago"/>
+    </div>
+
+    <div class="item">
+      <img src="{% static 'child.jpg' %}" alt="New York"/>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 slider" style="margin-left:20px; background-color:#f2f7f9;" >
+<h1 style="text-align:center">Facilities</h1>
+<p style="text-align:justify;">Within lies one of Asia’s largest hospitals, offering residential accommodation to its doctors and staff, and facilitating a premier department of emergency medicine and centers of excellence for key super specialties.</p>
+<br>
+<h3 style="text-align:center;">Making Your Care Comfortable</h3><br>
+<p style="text-align:justify;">Built on a sprawling area of 17 acres of land with 2 million sq.ft. of built-up area, we offer an array of medical services, ranging from preventive to curative and consultancy. View the list of infrastructure and facilities which we have to offer.
+</p>
+</div>
+</div> 
+</div>
+</div>
+
+<div class="row pageheading4 text-center" id="facilities1">
+<div class="col-md-12" style="background-color:#a33164; margin-bottom:20px; margin-top:30px;">
+<h1 style="padding-left:60px; text-align:left;">Not Just A Hospital But A HealthCity</h1>
+</div>
+<div class="col-md-3" style="padding-left:0px">
+<img src="{% static 'lobby.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Lobby</h3>
+  </div>
+  </div>
+    
+ <div class="col-md-3">
+
+<img src="{% static 'wait.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Patient Wating Area</h3>
+  </div>
+  </div>
+	
+   <div class="col-md-3">
+
+<img src="{% static 'court.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Multi Cuisine Food Court</h3>
+</div>
+</div>
+<div class="col-md-3" style="padding-right:0px">
+
+<img src="{% static 'bank.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Banking Facilities</h3>
+</div>
+  </div>
+  </div>  
+
+ <div class="row pageheading4 text-center">
+ <div class="col-md-3" style="padding-left:0px">
+
+<img src="{% static 'emer.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities"><br>
+<h3 style="font-size:15px;">Accident & Emergency Center</h3>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'phar.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Pharmacy</h3>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'opd.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">OPD and Consulating Rooms</h3>
+  </div>
+  </div>
+  <div class="col-md-3" style="padding-right:0px;">
+
+<img src="{% static 'lab.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities"style="background-color:#f8f8f8;">
+<br><h3 style="font-size:15px;">Laboratory</h3>
+</div>
+  </div>
+</div>
+
+<div class="row pageheading4 text-center">
+ <div class="col-md-3" style="padding-left:0px">
+
+<img src="{% static 'room.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities"><br>
+<h3 style="font-size:15px;">Patient Rooms</h3>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'ldrp.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">LDRP and Critical Care Units</h3>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'traning.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<br><h3 style="font-size:15px;">Nurses Traning Facilities</h3>
+  </div>
+  </div>
+  <div class="col-md-3" style="padding-right:0px;">
+
+<img src="{% static 'other.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities"style="background-color:#f8f8f8;">
+<br><h3 style="font-size:15px;">Other Facilities and Amenities</h3>
+</div>
+  </div>
+</div>
+
+<div class="row pageheading4 text-center"id="facilities2">
+<div class="col-md-12" style="margin-bottom:80px;margin-top:40px;">
+<h1 style="padding-left:60px;text-align:left;">More About Rana</h1>
+</div>
+
+ <div class="col-md-3" style="padding-left:0px">
+
+<img src="{% static 'edu.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<h3 style="font-size:15px;">Education</h3>
+<p>Build your professional career</p>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'event.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<h3 style="font-size:15px;">Medical Events</h3>
+<p>Events at Rana Hospital</p>
+  </div>
+  </div>
+  <div class="col-md-3">
+
+<img src="{% static 'info.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<h3 style="font-size:15px;">Patient Infographics</h3>
+<p>Information,Leaflets & Graphics</p>
+  </div>
+  </div>
+  <div class="col-md-3" style="padding-right:0px">
+
+<img src="{% static 'feed.jpg' %}" width="100%" style="height:200px;" />
+ <div class="col-md-12 facilities">
+<h3 style="font-size:15px;">Feedback</h3>
+<p>Feedback for Our Services</p>
+</div>
+  </div>
+  </div>  
+  
+  
+<!--slider-->
+
+{% endblock %}

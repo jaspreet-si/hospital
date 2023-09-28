@@ -1,0 +1,178 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div class="row pageheading5">
+<h1>Doctors</h1>
+</div>
+ <div id="doctors">
+ <div class="row">
+
+ 
+ {% for doc in object_list %}
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="/media/{{ doc.photo }}"></div>                             
+	<div class="drdetails">
+	<h3>{{ doc.name }}</h3> 
+	<h4>{{ doc.department.name }}</h4>	
+	<p>{{ doc.description }}</p>                       
+	</div>
+	</div>
+</div>  
+  {% endfor %}
+  
+<!--<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr1.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr. K.L. Bansal(MBBS)</h3> 
+	<p>Anesthesia And Critical Care</p>	
+	<p>Assess Patients’ Conditions</p>                       
+	</div>
+	</div>
+</div>  
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr2.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Niraj Kumar(MBBS)</h3>                         
+	<p>Nephrology</p>                       
+	<p>Create Treatment Plans</p>                       
+	</div>
+	</div>
+</div>  
+
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr3.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Atul Sharma(MBBS)</h3>
+	 <p>Oncology</p>
+	 <p>Perform Routine Physicals</p>                       
+	</div>
+	</div>
+</div>    
+ 
+
+  </div> 
+  <div class="row">
+  
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr6.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Leena Saju(MBBS)</h3>
+	 <p>Plastic Surgery</p>
+	 <p>Medical Doctor Duties and Responsibilities</p>                      
+	</div>
+	</div>
+</div> 
+
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr5.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Neha Gupta(MBBS)</h3>  
+	<p>Cardiology</p>
+	<p>promoting health education</p>	
+	</div>
+	</div>
+</div> 
+ 
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr4.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Narender Kumar(MBBS)</h3>
+	<p>Medicine Expert</p> 
+	<p>performing surgical procedures</p>	
+	</div>
+	</div>
+</div> 
+
+ 
+
+  </div>  
+  <div class="row">
+
+ <div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr8.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Nitin Goel(MBBS)</h3>
+	<p>Orthopedics</p>  
+	<p>teaching traning doctors</p>	
+	</div>
+	</div>
+</div>
+
+ <div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr7.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr. Parveen Yadav(MBBS)</h3>
+	<p>Gynecology</p> 
+	<p>leading a medical team</p>	
+	</div>
+	</div>
+</div>
+    
+<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr14.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr. Pooja Aggarwal(MBBS)</h3>
+	<p>Pathology</p>
+	<p> planning treatment requirements</p>		
+	</div>
+	</div>
+</div>
+
+
+  </div>  
+  <div class="row">
+  
+
+  <div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr10.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Pawan Preet(MBBS)</h3>
+	<p>Dermatology</p>
+	<p>Monitoring and administering medication</p>	
+	</div>
+	</div>
+</div>
+  
+  <div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr9.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Rajat Gupta(MBBS)</h3>
+	<p>Dentistry</p>  
+	<p>Undertaking patient consultations</p>	
+	</div>
+	</div>
+</div>
+	
+	
+	<div class="col-md-4">
+	<div class="drclm">                              
+	<div class="drimg"><img src="{% static 'dr12.png' %}"></div>                             
+	<div class="drdetails">
+	<h3>Dr.Rajni Sharma(MBBS)</h3>
+	<p>Medicine Expert</p>
+	<p>Organising workloads</p>	
+	</div>
+	</div>
+</div>-->
+
+
+  </div>  
+  </div>  
+  
+{% endblock %}
+
